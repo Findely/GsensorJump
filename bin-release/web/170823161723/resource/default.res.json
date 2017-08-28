@@ -1,0 +1,130 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,1P-1_jpg,1P-2_jpg,1P-2_png,2P-2_png,3P-1_jpg,3P-2_png,3P-3_png,3P-4_png,3P-5_png,3P-6_png,4P-1_png,4P-2_png,5P-1_jpg,6P-1_png,share_jpg,star_png,rule_png,man2_png,man_png,icon_jpg,logo_dh_png,logo2_png,music_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/1P-1.jpg",
+			"type": "image",
+			"name": "1P-1_jpg"
+		},
+		{
+			"url": "assets/1P-2.jpg",
+			"type": "image",
+			"name": "1P-2_jpg"
+		},
+		{
+			"url": "assets/1P-2.png",
+			"type": "image",
+			"name": "1P-2_png"
+		},
+		{
+			"url": "assets/2P-2.png",
+			"type": "image",
+			"name": "2P-2_png"
+		},
+		{
+			"url": "assets/3P-1.jpg",
+			"type": "image",
+			"name": "3P-1_jpg"
+		},
+		{
+			"url": "assets/3P-2.png",
+			"type": "image",
+			"name": "3P-2_png"
+		},
+		{
+			"url": "assets/3P-3.png",
+			"type": "image",
+			"name": "3P-3_png"
+		},
+		{
+			"url": "assets/3P-4.png",
+			"type": "image",
+			"name": "3P-4_png"
+		},
+		{
+			"url": "assets/3P-5.png",
+			"type": "image",
+			"name": "3P-5_png"
+		},
+		{
+			"url": "assets/3P-6.png",
+			"type": "image",
+			"name": "3P-6_png"
+		},
+		{
+			"url": "assets/4P-1.png",
+			"type": "image",
+			"name": "4P-1_png"
+		},
+		{
+			"url": "assets/4P-2.png",
+			"type": "image",
+			"name": "4P-2_png"
+		},
+		{
+			"url": "assets/5P-1.jpg",
+			"type": "image",
+			"name": "5P-1_jpg"
+		},
+		{
+			"url": "assets/6P-1.png",
+			"type": "image",
+			"name": "6P-1_png"
+		},
+		{
+			"url": "assets/share.jpg",
+			"type": "image",
+			"name": "share_jpg"
+		},
+		{
+			"name": "star_png",
+			"type": "image",
+			"url": "assets/star.png"
+		},
+		{
+			"name": "rule_png",
+			"type": "image",
+			"url": "assets/rule.png"
+		},
+		{
+			"name": "man2_png",
+			"type": "image",
+			"url": "assets/man2.png"
+		},
+		{
+			"name": "man_png",
+			"type": "image",
+			"url": "assets/man.png"
+		},
+		{
+			"name": "icon_jpg",
+			"type": "image",
+			"url": "assets/icon.jpg"
+		},
+		{
+			"name": "logo_dh_png",
+			"type": "image",
+			"url": "assets/logo_dh.png"
+		},
+		{
+			"name": "logo2_png",
+			"type": "image",
+			"url": "assets/logo2.png"
+		},
+		{
+			"name": "music_png",
+			"type": "image",
+			"url": "assets/music.png"
+		}
+	]
+}

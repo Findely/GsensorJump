@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="starpage" width="640" height="1040" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="starpageA">
+			<tween:TweenItem target="{starbtn}">
+				<tween:To duration="1250" ease="bounceOut">
+					<tween:props>
+						<e:Object x="{26}" y="{790}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{rulebtn}">
+				<tween:To duration="1250" ease="bounceOut">
+					<tween:props>
+						<e:Object x="{344}" y="{790}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{page1_1}">
+				<tween:To duration="1250" ease="bounceOut">
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="RuleA">
+			<tween:TweenItem target="{rule}">
+				<tween:To duration="1250" ease="bounceOut">
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="RuleB">
+			<tween:TweenItem target="{rule2}">
+				<tween:To duration="1250" ease="bounceOut">
+					<tween:props>
+						<e:Object x="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="bg" source="1P-1_jpg" x="0" y="0" width="640" height="1040"/>
+	<e:Image id="page1_1" source="1P-2_png" x="0" y="-520" locked="true"/>
+	<e:Image id="starbtn" source="star_png" x="40" y="1040" locked="true"/>
+	<e:Image id="rulebtn" source="rule_png" x="348" y="1040" locked="true"/>
+	<e:Image id="rule" source="1P-2_jpg" x="0" y="-1040" width="640" height="1040"/>
+	<e:Image id="rule2" source="6P-1_png" x="644" y="0" width="640" height="1040"/>
+</e:Skin>

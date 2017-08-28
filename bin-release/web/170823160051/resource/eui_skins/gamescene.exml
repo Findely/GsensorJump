@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gamescene" width="640" height="1040" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15e03df7c38"/>
+	<e:Image id="bg" x="0" y="0" anchorOffsetX="0" width="640" anchorOffsetY="0" height="1040" source="3P-1_jpg" locked="true"/>
+	<e:Image id="bg2" source="3P-1_jpg" x="0" y="-1040" width="640" height="1040" locked="true"/>
+	<e:Image id="gameM" source="3P-2_png" y="0" width="640" height="1040" x="0"/>
+	<e:Label id="myscore" text="0" x="174.5" y="82" textAlign="center" verticalAlign="middle" size="40" textColor="0xd81a1a"/>
+	<e:Group id="gameMain" width="640" height="1040" x="0">
+		<e:Image id="bird" source="3P-3_png" x="93" y="658" width="163" height="108"/>
+		<e:Image source="3P-5_png" x="238.5" y="932" width="163" height="108"/>
+		<e:Image source="3P-4_png" x="369.5" y="739.5" width="163" height="108"/>
+		<e:Image source="3P-5_png" x="305" y="466" width="163" height="108"/>
+		<e:Image source="3P-3_png" x="75.5" y="324" width="163" height="108"/>
+		<e:Image source="3P-5_png" x="288" y="102" width="163" height="108"/>
+	</e:Group>
+	<e:Image id="man" source="man_png" x="121" y="895" width="65" height="145" locked="true"/>
+	<e:Group id="gameOver" width="640" height="1040" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image id="gameoverbg" source="4P-1_png" x="0" y="0"/>
+		<e:Label id="gamescore" text="0" x="256" y="463" textColor="0xff0000" size="40" width="112" height="40" textAlign="center"/>
+	</e:Group>
+</e:Skin>

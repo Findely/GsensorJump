@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameover" width="640" height="1040" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="4P-1_png" x="0" y="0" width="640" height="1040"/>
+	<e:Label id="myscore" text="0" x="251.5" y="462" textColor="0xff0000" size="40" verticalAlign="justify" width="89" height="40" textAlign="center"/>
+	<e:Image id="gamer" source="4P-2_png" x="36" y="752"/>
+	<e:Image id="rank" source="rule_png" x="340.5" y="752"/>
+</e:Skin>

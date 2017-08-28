@@ -1,0 +1,13 @@
+{
+  "skins": {
+    "eui.Button": "resource/eui_skins/ButtonSkin.exml",
+    "gamescene": "resource/eui_skins/gamescene.exml"
+  },
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/eui_skins/ButtonSkin.exml",
+    "resource/eui_skins/gameover.exml",
+    "resource/eui_skins/gamescene.exml",
+    "resource/eui_skins/starpage.exml"
+  ]
+}
